@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/example-component.js",
-  "module": "dist/example-component.esm.js",
+  "module": "dist/ExampleComponent.js",
   "scripts": {
     "build": "npm run build:clean && npm run build:ts",
     "build:ts": "npx rollup -c",
@@ -33,7 +33,7 @@
   },
   "peerDependencies": {
     "react": "^17.0.2",
-    "styled": "^1.0.0"
+    "styled-components": "^5.2.3"
   },
   "jest": {
     "transform": {
@@ -46,7 +46,5 @@
       "js"
     ]
   },
-  "dependencies": {
-    "styled-components": "^5.2.3"
-  }
+  "dependencies": {}
 }
